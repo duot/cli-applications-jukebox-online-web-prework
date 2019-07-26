@@ -27,6 +27,9 @@ def play songs
   end
 end
 
+def list songs 
+  
+end
 def run songs
 
 end
