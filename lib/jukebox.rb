@@ -16,7 +16,7 @@ def play songs
   puts "Please enter a song name or number:"
   i = gets.chomp
   song = find_song songs, i
-  nth_song = songs[i]
+  nth_song = songs[i.to_i]
 
   song = song || nth_song
   if song 
