@@ -19,7 +19,7 @@ def play songs
   nth_song = songs[i.to_i]
 
   song = song || nth_song
-  song = nil if []
+  song = false if song == []
   if song
     puts "Playing #{song}"
   else
