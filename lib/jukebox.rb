@@ -12,7 +12,7 @@ def play songs
   puts "Please enter a song name or number:"
   i = gets.chomp
   song = find_song songs, song
-  find_song(songs, song) ? puts "Playing #{song}"
+  
 end
 
 def run songs
