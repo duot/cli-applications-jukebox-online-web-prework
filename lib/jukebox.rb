@@ -9,7 +9,7 @@ def help
 end
 
 def find_song songs, song
-
+  songs.select {|s| s.match(song)}
 end
 
 def play songs
