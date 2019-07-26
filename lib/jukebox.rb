@@ -15,7 +15,8 @@ end
 def play songs
   puts "Please enter a song name or number:"
   i = gets.chomp
-  song = find_song songs, song
+  song = find_song songs, i
+  nth_song = songs[i]
 
 end
 
