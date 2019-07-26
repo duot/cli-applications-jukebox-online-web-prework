@@ -42,4 +42,19 @@ end
 def run songs
   help
   prompt
+
+  while true 
+    command = gets.chomp 
+    case command 
+    when 'exit'
+      exit 
+      break
+    when 'help'
+      help
+    when 'play'
+      play
+    when 'list'
+      list 
+    end 
+  end
 end
