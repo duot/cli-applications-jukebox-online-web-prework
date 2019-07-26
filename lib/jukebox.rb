@@ -19,7 +19,11 @@ def play songs
   nth_song = songs[i]
 
   song = song || nth_song
-  if puts "Playing #{song}" : puts "Invalid input, please try again"
+  if song 
+    puts "Playing #{song}" 
+  else 
+    puts "Invalid input, please try again"
+  end
 end
 
 def run songs
