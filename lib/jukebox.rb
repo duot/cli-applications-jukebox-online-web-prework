@@ -41,9 +41,9 @@ end
 
 def run songs
   help
-  prompt
 
   while true
+    prompt
     command = gets.chomp
     case command
     when 'exit'
