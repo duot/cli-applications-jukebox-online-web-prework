@@ -18,6 +18,8 @@ def play songs
   song = find_song songs, i
   nth_song = songs[i]
 
+  song || nth_song ? puts "Playing #{song}" : puts "Invalid input, please try again"
+
 end
 
 def run songs
