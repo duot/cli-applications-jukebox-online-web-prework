@@ -35,6 +35,11 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run songs
+def prompt
+  puts "Please enter a command:"
+end
 
+def run songs
+  help
+  prompt
 end
