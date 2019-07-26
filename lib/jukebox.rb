@@ -20,9 +20,9 @@ def play songs
 
   song = song || nth_song
   song = nil if []
-  if song 
-    puts "Playing #{song}" 
-  else 
+  if song
+    puts "Playing #{song}"
+  else
     puts "Invalid input, please try again"
   end
 end
