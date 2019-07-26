@@ -31,6 +31,10 @@ def list songs
   songs.each_with_index {|song, idx| puts "#{idx + 1}. #{song}"}
 end
 
+def exit_jukebox
+  puts "Goodbye"
+end
+
 def run songs
 
 end
