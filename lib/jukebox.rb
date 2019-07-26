@@ -8,6 +8,11 @@ def help
 - exit : exits this program"
 end
 
+def play songs 
+  puts "Please enter a song name or number:"
+  i = gets.chomp
+end 
+
 def run songs
 
 end
