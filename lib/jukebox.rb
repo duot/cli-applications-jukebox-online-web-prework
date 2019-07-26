@@ -1,6 +1,6 @@
 require 'pry'
 
-def help 
+def help
   puts "I accept the following commands:\n
 - help : displays this help message\n
 - list : displays a list of songs you can play\n
@@ -8,6 +8,6 @@ def help
 - exit : exits this program"
 end
 
-def run songs 
+def run songs
 
 end
